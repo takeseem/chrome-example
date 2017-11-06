@@ -1,0 +1,16 @@
+{
+  "name": "A browser action which changes its icon when clicked",
+  "version": "0.1.0",
+  "icons": {
+    "16": "set-icon-path/icon1.png"
+  },
+  "background": {
+    "scripts": [
+      "set-icon-path/background.js"
+    ]
+  },
+  "browser_action": {
+      "name": "Click to change the icon's color"
+  },
+  "manifest_version": 2
+}
